@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ceres Fragrances</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #0d1b1e;
+      color: #f5f5f5;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid gold;
+    }
+    header h1 {
+      color: gold;
+      font-size: 2.5em;
+      font-family: 'Cinzel', serif;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: gold;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .product {
+      background-color: #132A13;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid gold;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CERES</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    Live the Natural Way
+  </div>
+
+  <section id="products">
+    <h2>Our Fragrance Collection</h2>
+    <div class="product">
+      <h3>Arboris – $65</h3>
+      <p>A deep blend of cedar, moss, and a touch of smoke. For explorers and forest lovers.</p>
+    </div>
+    <div class="product">
+      <h3>Aether – $65</h3>
+      <p>Bright notes of bergamot, sea breeze, and eucalyptus. Designed for the free-spirited.</p>
+    </div>
+    <div class="product">
+      <h3>Solstice – $65</h3>
+      <p>Spicy clove, vanilla, and golden amber. A scent that warms like the sun.</p>
+    </div>
+    <div class="product">
+      <h3>Discovery Set – $20</h3>
+      <p>Includes 5 mini samples (3 mL each) to help you find your signature scent.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Ceres</h2>
+    <p>Ceres was born from our love for nature and storytelling. Named after the Roman goddess of agriculture, our brand brings together tradition, growth, and modern exploration.</p>
+    <p>We focus on sustainability, high-quality ingredients, and bold designs. Our fragrances are assembled in-house to ensure every bottle delivers on scent, feel, and purpose.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@ceresfragrance.com</p>
+    <p>Follow us: Instagram | TikTok | Facebook</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ceres Fragrances. All rights reserved.</p>
+  </footer>
+</body>
+</html>
